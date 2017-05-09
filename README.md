@@ -1,5 +1,5 @@
 # wx-dev-tool-for-linux
-linux版的微信开发工具. 源码与官方一致。
+linux版的微信小程序开发工具. 源码与官方一致
 
 开发者工具基于nw.js开发，是可以兼容Linux的.
 
