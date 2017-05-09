@@ -19,7 +19,7 @@ cd ./wx-dev-tool-for-linux
 文件说明： 
 
 - sdk.tar.gz
-> 为nw.js的sdk
+> 为nw.js的sdk. 版本为0.22.0
 
 - wechat.tar.gz
-> 微信开发者工具Windowsx64版
+> 微信开发者工具Windowsx64版，版本2017.05.08
