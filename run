@@ -1,0 +1,17 @@
+#!/bin/bash
+
+for file in ./sdk/*
+do
+    if test -f $file
+    then
+	# 是文件
+        echo $file
+    fi
+    if test -d $file
+    then
+	# 是目录
+	echo ""
+    fi
+cd $file
+./nw
+done

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+rm -rf ./sdk && mkdir ./sdk
+tar -zxvf sdk.tar.gz -C ./sdk
+
+for file in ./sdk/*
+do
+    if test -f $file
+    then
+	# 是文件
+        echo $file
+    fi
+    if test -d $file
+    then
+	# 是目录
+	tar -zxvf wechat.tar.gz -C $file
+    fi
+echo "解压完成! 现在你可以运行 ./run"
+done
