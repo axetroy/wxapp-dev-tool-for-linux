@@ -1,7 +1,9 @@
 # wx-dev-tool-for-linux
 linux版的微信开发工具. 源码与官方一致。
 
-开发者工具基于nw.js开发，是可以兼容Linux的
+开发者工具基于nw.js开发，是可以兼容Linux的.
+
+支持Linux 64Arch
 
 ### 如何使用
 
@@ -11,3 +13,13 @@ cd ./wx-dev-tool-for-linux
 ./setup   # 第一次使用才需要
 ./run
 ```
+
+### 说明
+
+文件说明： 
+
+- sdk.tar.gz
+> 为nw.js的sdk
+
+- wechat.tar.gz
+> 微信开发者工具Windowsx64版
