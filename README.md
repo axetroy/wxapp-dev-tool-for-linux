@@ -14,9 +14,7 @@ cd ./wx-dev-tool-for-linux
 ./run
 ```
 
-### 说明
-
-文件说明： 
+### 文件说明
 
 - sdk.tar.gz
 > 为nw.js的sdk. 版本为0.22.0
