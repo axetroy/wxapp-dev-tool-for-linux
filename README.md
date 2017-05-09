@@ -8,8 +8,8 @@ linux版的微信小程序开发工具. 源码与官方一致
 ### 如何使用
 
 ```bash
-git clone https://github.com/axetroy/wx-dev-tool-for-linux.git
-cd ./wx-dev-tool-for-linux
+git clone https://github.com/axetroy/wxapp-dev-tool-for-linux.git
+cd ./wxapp-dev-tool-for-linux
 ./setup   # 第一次使用才需要
 ./run
 ```
